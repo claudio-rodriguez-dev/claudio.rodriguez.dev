@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/claudio.rodriguez.dev/static/css/main.198a814d.css",
+    "main.js": "/claudio.rodriguez.dev/static/js/main.1659a0df.js",
+    "static/js/453.4aeffeb3.chunk.js": "/claudio.rodriguez.dev/static/js/453.4aeffeb3.chunk.js",
+    "static/media/inforyde_logo.jpeg": "/claudio.rodriguez.dev/static/media/inforyde_logo.71c83afef016ac10d813.jpeg",
+    "index.html": "/claudio.rodriguez.dev/index.html",
+    "main.198a814d.css.map": "/claudio.rodriguez.dev/static/css/main.198a814d.css.map",
+    "main.1659a0df.js.map": "/claudio.rodriguez.dev/static/js/main.1659a0df.js.map",
+    "453.4aeffeb3.chunk.js.map": "/claudio.rodriguez.dev/static/js/453.4aeffeb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.198a814d.css",
+    "static/js/main.1659a0df.js"
+  ]
+}
