@@ -18,8 +18,8 @@ function ColoredText({text}) {
 
 export default function Technology({title, text}){
     return (
-        <div className="space-y-3">
-            <h2 className="text-2xl">{title}</h2>
+        <div className="md:space-y-3">
+            <h2 className="md:text-2xl">{title}</h2>
             <ColoredText text={text}/>
         </div>
     )
