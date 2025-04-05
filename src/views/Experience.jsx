@@ -57,7 +57,7 @@ const Experience = () => {
                         {experiences.map((experience, index) => (
                             <CarouselItem key={index} className=" 2xl:basis-1/2">
                                 <div className="p-1">
-                                    <Card className='rounded-[7px] bg-card/50'>
+                                    <Card className='rounded-[7px] bg-card/50 mx-auto w-auto'>
                                         <CardHeader>
                                             <div className='flex justify-between items-center'>
                                                 <CardTitle className='sm:text-2xl 2xl:text-3xl'>{experience.company}</CardTitle>
@@ -69,11 +69,11 @@ const Experience = () => {
                                             <CardDescription className='sm:text-xl 2xl:text-2xl'>
                                                 <span className="font-semibold">{experience.title}</span></CardDescription>
                                         </CardHeader>
-                                        <CardContent className="flex flex-col  aspect-3/2 gap-2 items-center justify-center p-6">
+                                        <CardContent className="flex flex-col w-auto lg:aspect-3/2 gap-2 items-center justify-center p-6">
 
-                                            <CardDescription className='sm:text-lg 2xl:text-xl'>{experience.description}</CardDescription>
-                                            <CardDescription className='sm:text-lg 2xl:text-xl'>{experience.description_2}</CardDescription>
-                                            <CardDescription className='sm:text-lg 2xl:text-xl'>{experience.description_3}</CardDescription>
+                                            <CardDescription><p className='w-auto sm:text-lg 2xl:text-xl'>{experience.description}</p></CardDescription>
+                                            <CardDescription><p className='w-auto sm:text-lg 2xl:text-xl'>{experience.description_2}</p></CardDescription>
+                                            <CardDescription><p className='w-auto sm:text-lg 2xl:text-xl'>{experience.description_3}</p></CardDescription>
 
                                         </CardContent>
                                     </Card>
