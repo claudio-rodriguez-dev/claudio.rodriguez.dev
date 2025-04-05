@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 
 
 export default defineConfig({
-  base: "https://github.com/claudio-rodriguez-dev/claudio.rodriguez.dev",
+  base: "https://claudio-rodriguez-dev.github.io/claudio.rodriguez.dev/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
