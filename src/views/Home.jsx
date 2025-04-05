@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { Button, buttonVariants } from '@/components/ui/button';
 import { DownloadIcon } from '@radix-ui/react-icons';
+import portfolio from '/ClaudioRodriguez2025.pdf'
 
 
 
@@ -70,7 +71,7 @@ const Home = () => {
                     <h2 className='text-3xl mt-3 md:mt-5 xl:text-4xl xl:ml-10 2xl:text-6xl'>Backend Developer</h2>
                     <p className='amt-6 md:mt-10 md:px-10 xl:text-2xl'>I am a Software Developer with three years of experience in backend development, primarily working with Python. Currently, I am learning React to expand my skills and transition into a Full Stack Developer.</p>
                     <Button className='mt-6 md:mt-10 md:mx-10 rounded-[7px] hover:scale-110 focus:scale-110 active:scale-105 transition' asChild>
-                        <a className='flex justify-between' href="src/assets/ClaudioRodriguez2025.pdf" download>
+                        <a className='flex justify-between' href={portfolio} download>
                             <p>Download CV</p>
                             <DownloadIcon />
                         </a>
